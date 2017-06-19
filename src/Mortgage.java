@@ -9,15 +9,17 @@ public class Mortgage {
  double interestRate = 0;
  double monthlyPayment = 0;
  double balance = 0;
- int compoundPeriod = 0;
  int term;
  
+ //enter loan
  System.out.printf("Enter the loan amount: ");
  loan = keyboard.nextDouble();
  
+ //enter interest rate
  System.out.printf("Enter the interest rate on the loan: ");
  interestRate = keyboard.nextDouble();
  
+ //enter years of load
  System.out.printf("Enter the term(years) for the loan payment: ");
  term = keyboard.nextInt();
  
